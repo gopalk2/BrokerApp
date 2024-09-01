@@ -1,0 +1,26 @@
+.switch {
+  background-color: #05447a14;
+  border-radius: 4px;
+  padding: 0 0.4rem;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.outlined {
+  background-color: transparent;
+  border: none;
+  padding: 0 0.6rem;
+  width: fit-content;
+}
+
+.circular {
+  background-color: #05447a14;
+  border-radius: 24px;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

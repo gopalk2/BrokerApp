@@ -1,0 +1,359 @@
+@import url(./sizes.css);
+@import url(./colors.css);
+
+:root {
+  .w-auto {
+    width: auto;
+  }
+  .w-fc {
+    width: fit-content;
+  }
+  .w-mc {
+    width: max-content;
+  }
+  .w-100 {
+    width: 100%;
+  }
+  .w-90 {
+    width: 90%;
+  }
+  .w-80 {
+    width: 80%;
+  }
+  .w-75 {
+    width: 75%;
+  }
+  .w-70 {
+    width: 70%;
+  }
+  .w-67 {
+    width: 67%;
+  }
+  .w-65 {
+    width: 65%;
+  }
+  .w-60 {
+    width: 60%;
+  }
+  .w-55 {
+    width: 55%;
+  }
+  .w-50 {
+    width: 50%;
+  }
+  .w-48 {
+    width: 48%;
+  }
+  .w-45 {
+    width: 45%;
+  }
+  .w-40 {
+    width: 40%;
+  }
+  .w-33 {
+    width: 33%;
+  }
+  .w-30 {
+    width: 30%;
+  }
+  .w-25 {
+    width: 25%;
+  }
+  .w-20 {
+    width: 20%;
+  }
+  .w-15 {
+    width: 15%;
+  }
+  .w-10 {
+    width: 10%;
+  }
+  .h-auto {
+    height: auto;
+  }
+  .h-fc {
+    height: fit-content;
+  }
+  .h-mc {
+    height: max-content;
+  }
+  .h-100 {
+    height: 100%;
+  }
+  .h-98 {
+    height: 98%;
+  }
+  .h-95 {
+    height: 95%;
+  }
+  .h-92 {
+    height: 92%;
+  }
+  .h-90 {
+    height: 90%;
+  }
+  .h-85 {
+    height: 85%;
+  }
+  .h-80 {
+    height: 80%;
+  }
+  .h-75 {
+    height: 75%;
+  }
+  .h-70 {
+    height: 70%;
+  }
+  .h-67 {
+    height: 67%;
+  }
+  .h-65 {
+    height: 65%;
+  }
+  .h-60 {
+    height: 60%;
+  }
+  .h-58 {
+    height: 58%;
+  }
+  .h-55 {
+    height: 55%;
+  }
+  .h-50 {
+    height: 50%;
+  }
+  .h-45 {
+    height: 45%;
+  }
+  .h-40 {
+    height: 40%;
+  }
+  .h-35 {
+    height: 35%;
+  }
+  .h-33 {
+    height: 33%;
+  }
+  .h-30 {
+    height: 30%;
+  }
+  .h-25 {
+    height: 25%;
+  }
+  .h-20 {
+    height: 20%;
+  }
+  .h-15 {
+    height: 15%;
+  }
+  .h-10 {
+    height: 10%;
+  }
+
+  /* margins */
+
+  .m-0 {
+    margin: 0;
+  }
+  .m-1 {
+    margin: 0.25rem;
+  }
+  .m-2 {
+    margin: 0.5rem;
+  }
+  .m-3 {
+    margin: 0.75rem;
+  }
+  .m-4 {
+    margin: 1rem;
+  }
+  .m-5 {
+    margin: 1.25rem;
+  }
+  .mr-0 {
+    margin-right: 0;
+  }
+  .mr-1 {
+    margin-right: 0.25rem;
+  }
+  .mr-2 {
+    margin-right: 0.5rem;
+  }
+  .mr-3 {
+    margin-right: 0.75rem;
+  }
+  .mr-4 {
+    margin-right: 1rem;
+  }
+  .mr-5 {
+    margin-right: 1.25rem;
+  }
+  .mb-0 {
+    margin-bottom: 0;
+  }
+  .mb-1 {
+    margin-bottom: 0.25rem;
+  }
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  .mb-3 {
+    margin-bottom: 0.75rem;
+  }
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  .mb-5 {
+    margin-bottom: 1.25rem;
+  }
+  .ml-0 {
+    margin-left: 0;
+  }
+  .ml-1 {
+    margin-left: 0.25rem;
+  }
+  .ml-2 {
+    margin-left: 0.5rem;
+  }
+  .ml-3 {
+    margin-left: 0.75rem;
+  }
+  .ml-4 {
+    margin-left: 1rem;
+  }
+  .ml-5 {
+    margin-left: 1.25rem;
+  }
+  .mt-0 {
+    margin-top: 0;
+  }
+  .mt-1 {
+    margin-top: 0.25rem;
+  }
+  .mt-2 {
+    margin-top: 0.5rem;
+  }
+  .mt-3 {
+    margin-top: 0.75rem;
+  }
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  .mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  /* padding */
+
+  .p-0 {
+    padding: 0;
+  }
+  .p-1 {
+    padding: 0.25rem;
+  }
+  .p-2 {
+    padding: 0.5rem;
+  }
+  .p-3 {
+    padding: 0.75rem;
+  }
+  .p-4 {
+    padding: 1rem;
+  }
+  .p-5 {
+    padding: 1.25rem;
+  }
+
+  .pr-1 {
+    padding-right: 0.25rem;
+  }
+  .pr-2 {
+    padding-right: 0.5rem;
+  }
+  .pr-3 {
+    padding-right: 0.75rem;
+  }
+  .pr-4 {
+    padding-right: 1rem;
+  }
+  .pr-5 {
+    padding-right: 1.25rem;
+  }
+
+  .pb-1 {
+    padding-bottom: 0.25rem;
+  }
+  .pb-2 {
+    padding-bottom: 0.5rem;
+  }
+  .pb-3 {
+    padding-bottom: 0.75rem;
+  }
+  .pb-4 {
+    padding-bottom: 1rem;
+  }
+  .pb-5 {
+    padding-bottom: 1.25rem;
+  }
+
+  .pl-1 {
+    padding-left: 0.25rem;
+  }
+  .pl-2 {
+    padding-left: 0.5rem;
+  }
+  .pl-3 {
+    padding-left: 0.75rem;
+  }
+  .pl-4 {
+    padding-left: 1rem;
+  }
+  .pl-5 {
+    padding-left: 1.25rem;
+  }
+
+  .pt-1 {
+    padding-top: 0.25rem;
+  }
+  .pt-2 {
+    padding-top: 0.5rem;
+  }
+  .pt-3 {
+    padding-top: 0.75rem;
+  }
+  .pt-4 {
+    padding-top: 1rem;
+  }
+  .pt-5 {
+    padding-top: 1.25rem;
+  }
+
+  .ptr-1-2 {
+    padding: 0.25rem 0.5rem;
+  }
+  .ptr-2-1 {
+    padding: 0.5rem 0.25rem;
+  }
+  .ptr-2-4 {
+    padding: 0.5rem 1rem;
+  }
+
+  .b-bottom {
+    border-bottom: 0.5px solid #9bb4ca;
+  }
+  .b-bottom-2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .br-sm {
+    border-radius: 4px;
+  }
+  .br-md {
+    border-radius: 6px;
+  }
+  .br-lg {
+    border-radius: 8px;
+  }
+  .br-xl {
+    border-radius: 16px;
+  }
+}

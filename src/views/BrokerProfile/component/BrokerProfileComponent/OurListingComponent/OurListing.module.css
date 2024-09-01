@@ -1,0 +1,65 @@
+@import url(../../../../../styles/colors.css);
+@import url(../../../../../styles/sizes.css);
+
+.tab {
+  width: fit-content;
+  display: flex;
+  margin-left: 1.5rem;
+  border: 0.5px solid #8994a3;
+  border-radius: 50px;
+  height: 30px;
+}
+
+.active-tab {
+  width: fit-content;
+  padding: 0 1.5rem;
+  text-align: center;
+  background-color: #24313f;
+  color: var(--white) !important;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.inactive-tab {
+  width: fit-content;
+  padding: 0 1.5rem;
+  text-align: center;
+  background-color: var(--white);
+  color: #24313f;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.tab-text {
+  font-size: var(--md);
+  font-weight: var(--fontWeight400);
+}
+
+.our-listing-border-container {
+  display: flex;
+  border-bottom: 0.5px solid var(--defaultTextFieldBorder);
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.active-dot {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--white);
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 0 0.3rem 0 0.5rem;
+}
+
+.inactive-dot {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #24313f;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 0 0.3rem 0 0.5rem;
+}

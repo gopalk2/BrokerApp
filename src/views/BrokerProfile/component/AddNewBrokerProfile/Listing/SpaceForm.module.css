@@ -1,0 +1,11 @@
+.form-div {
+  width: 100%;
+  max-height: 95%;
+  overflow-y: auto;
+}
+.form-items-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

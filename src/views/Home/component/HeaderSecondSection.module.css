@@ -1,0 +1,49 @@
+@import url(../../../styles/colors.css);
+@import url(../../../styles/sizes.css);
+
+.header-div {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: var(--fontWeight500);
+  color: var(--white);
+}
+
+.header-text {
+  color: #fa9d4b;
+}
+
+.sub-header {
+  font-size: var(--lg);
+  font-weight: var(--fontWeight400);
+  color: var(--white);
+  margin-bottom: 0.25rem;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  top: 70px;
+}
+
+.button {
+  width: 17%;
+  font-size: var(--lg);
+  color: #fa9d4b;
+  background-color: transparent;
+  border: 0.5px solid #fa9d4b;
+}
+
+.user-search-icon {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 0.25rem !important;
+  margin-right: 0.5rem;
+  color: #f49025;
+}

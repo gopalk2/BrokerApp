@@ -1,0 +1,60 @@
+[
+    {"name": "Coworking spaces", "id": 1, "tagValue": "83", "sub_category":
+        [
+            {
+                "name": "All", "id": 1, "tagValue": "148"
+            },
+            {
+                "name": "Coworking", "id": 2, "tagValue": "148"
+            },
+            {
+                "name": "Event space", "id": 3, "tagValue": "148"
+            },
+            {
+                "name": "Meeting Room", "id": 4, "tagValue": "148"
+            },
+            {
+                "name": "Training Room", "id": 5, "tagValue": "148"
+            },
+            {
+                "name": "Conference Room", "id": 6, "tagValue": "148"
+            }
+        ]    
+    },
+    {"name": "Commercial spaces", "id": 2, "tagValue": "148", "sub_category":
+        [
+            {
+                "name": "All", "id": 1, "tagValue": "148"
+            },
+            {
+                "name": "Commercial - Stand alone", "id": 2, "tagValue": "148"
+            },
+            {
+                "name": "Commercial - Large IT Parks", "id": 3, "tagValue": "148"
+            },
+            {
+                "name": "Commercial - Small office units", "id": 4, "tagValue": "148"
+            }
+        ]    
+    },
+    {"name": "Other spaces", "id": 3, "tagValue": "48", "sub_category":
+        [
+            {
+                "name": "Other", "id": 1, "tagValue": "148"
+            },
+            {
+                "name": "Event", "id": 2, "tagValue": "148"
+            },
+            {
+                "name": "Event", "id": 3, "tagValue": "148"
+            },
+            {
+                "name": "Event", "id": 4, "tagValue": "148"
+            },
+            {
+                "name": "spaces", "id": 5, "tagValue": "148"
+            }
+        ]    
+    }
+]
+

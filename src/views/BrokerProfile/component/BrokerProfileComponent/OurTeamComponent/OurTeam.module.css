@@ -1,0 +1,13 @@
+.our-team-card-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.our-team-border-container {
+  display: flex;
+  border-bottom: 0.5px solid var(--defaultTextFieldBorder);
+  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
+}

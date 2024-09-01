@@ -1,0 +1,30 @@
+.commercial-space-card {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.commercial-space-card .card:nth-child(3n + 3) {
+  margin-right: 0;
+}
+
+.commercial-space-card .card:not(:nth-child(3n + 3)) {
+  margin-right: 2.3rem;
+}
+
+.down-arrow-icon {
+  width: 10px;
+  height: 10px;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+  margin-bottom: 0.3vh;
+  color: var(--labelText);
+  transform: rotate(90deg);
+}

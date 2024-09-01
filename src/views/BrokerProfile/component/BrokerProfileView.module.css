@@ -1,0 +1,24 @@
+@import url(../../../styles/colors.css);
+@import url(../../../styles/sizes.css);
+
+.broker-profile {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.broker-details-container {
+  width: 60%;
+  margin-right: 1.5rem;
+}
+
+.professional-details-container {
+  width: 38%;
+}
+
+.form-card {
+  width: 100%;
+  padding: 1.5rem;
+  background-color: #24313f;
+}

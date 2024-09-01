@@ -1,0 +1,12 @@
+.login-side-div {
+    background-image: url(../../assets/images/loginSideBackground.png);
+    background-size: cover;
+    width: 34vw;
+    height: 100vh;
+    display: flex;
+}
+
+.login-img {
+    margin-top: 10vh;
+    height: fit-content;
+}

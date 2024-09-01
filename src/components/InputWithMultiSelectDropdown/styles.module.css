@@ -1,0 +1,31 @@
+.multi-input-with-dropdown-with-label-on-top {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* for multiple input in one line */
+.multi-input-with-dropdown-with-label-in-line {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.multi-input-with-dropdown-with-label-in-line label {
+  width: 25%;
+  padding: 0;
+}
+.multi-input-with-dropdown-with-label-in-line .dropdown-div {
+  width: 30%;
+}
+/* ******************** */
+
+.dropdown-div {
+  width: 100%;
+  height: max-content;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 400;
+  color: #434356;
+  padding-bottom: 0.4rem;
+}

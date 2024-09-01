@@ -1,0 +1,6 @@
+@import url("/src/styles/colors.css");
+
+.lock-icon {
+    color: var(--lmPrimary);
+    font-size: 16px;
+}

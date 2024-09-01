@@ -1,0 +1,51 @@
+@import url(../../styles/sizes.css);
+@import url(../../styles/colors.css);
+
+.filter-section {
+  width: 20%;
+  height: 100%;
+  background-color: var(--lmPrimary3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-header-div {
+  width: 100%;
+  height: 6%;
+  background-color: var(--lmPrimary3);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1.5vh 1vw;
+}
+
+.filter-section-body {
+  width: 100%;
+  height: 88%;
+  overflow: scroll;
+}
+
+.filter-footer-div {
+  width: 100%;
+  height: 6%;
+  background-color: var(--lmPrimary3);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1.5vh 1vw;
+  box-shadow: 0px -4px 8px 0px #0000003d;
+}
+
+.filter-icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 0.3vh;
+  margin-right: 0.5vw;
+  color: white;
+}

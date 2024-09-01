@@ -1,0 +1,100 @@
+@import url(../../../styles/colors.css);
+@import url(../../../styles/sizes.css);
+
+.login-header {
+  width: 100%;
+  display: flex;
+  padding: 1rem 1.5rem;
+  border-bottom: 0.5px solid var(--spaceBorder);
+}
+
+.login-body {
+  width: 100%;
+  padding: 1rem 1.5rem;
+}
+
+.term-and-condition-text {
+  color: var(--lmPrimary);
+  font-size: var(--xs);
+  font-weight: var(--fontWeight400);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.continue-button {
+  width: 100%;
+  padding: 0.25rem 0;
+  background-color: #fa9d4b;
+  border: 1px solid #fa9d4b;
+  color: white;
+  font-size: var(--md);
+  border-radius: 4px;
+}
+
+.footer-div {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.5px solid var(--spaceBorder);
+  position: relative;
+}
+
+.footer-text-div {
+  background-color: #24313f;
+  padding: 0 0.75rem;
+  position: absolute;
+}
+
+.footer-text {
+  color: var(--white);
+  font-size: var(--xs);
+  font-weight: var(--fontWeight400);
+}
+
+.logo {
+  width: 160px;
+  object-fit: fill;
+}
+
+.heading-text {
+  color: var(--white);
+  font-size: var(--lg);
+  font-weight: var(--fontWeight500);
+}
+
+.link-text {
+  color: #fa9d4b;
+  font-size: var(--xs);
+  font-weight: var(--fontWeight400);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-large-text {
+  color: var(--white);
+  font-size: var(--lg);
+  font-weight: var(--fontWeight500);
+  margin-bottom: 0;
+}
+
+.form-input {
+  background-color: #24313f;
+  color: var(--white);
+}
+
+.form-input input:focus {
+  background-color: #24313f;
+  color: var(--white);
+}
+
+.dark-background {
+  background-color: #24313f;
+}
+
+.close-icon {
+  width: 12px;
+  height: 12px;
+  margin-bottom: 0.25rem !important;
+  color: #667b85;
+}

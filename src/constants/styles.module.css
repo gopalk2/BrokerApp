@@ -1,0 +1,189 @@
+.activity-icon {
+  width: 24px;
+  height: 20px;
+  fill: #05447a;
+  margin-left: 0.4rem;
+}
+
+.space-share-icon {
+  width: 15px;
+  height: 15px;
+  fill: #05447a;
+}
+
+.user-filter-icon {
+  width: 16px;
+  height: 16px;
+  fill: #696978;
+  margin-right: 0.5rem;
+}
+
+.edit-icon {
+  width: 20px;
+  height: 20px;
+  fill: #05447a;
+  margin-bottom: 2px;
+}
+
+.shield-icon {
+  width: 12px;
+  height: 12px;
+}
+
+.done-deal-icon {
+  width: 20px;
+  height: 20px;
+  fill: #07b871;
+  margin-bottom: 2px;
+}
+
+.pie-chart-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.icon-xl {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 2px;
+}
+
+.icon-lg {
+  width: 16px;
+  height: 16px;
+  margin-bottom: 2px;
+}
+
+.icon-md {
+  width: 14px;
+  height: 14px;
+  margin-bottom: 2px;
+}
+
+.icon-sm {
+  width: 12px;
+  height: 12px;
+  margin-bottom: 2px;
+}
+
+.blue-icon {
+  width: 14px;
+  height: 14px;
+  fill: #05447a;
+  margin: 0 0.25rem 0.25rem 0.25rem;
+  pointer-events: none;
+}
+
+.white-icon {
+  width: 14px;
+  height: 14px;
+  fill: #fff;
+  margin: 0 0.25rem 0.25rem 0.25rem;
+  pointer-events: none;
+}
+
+.send-icon {
+  width: 20px;
+  height: 20px;
+  fill: #05447a;
+  margin-right: 0.5rem;
+}
+
+.chat-icon {
+  width: 16px;
+  height: 16px;
+  color: #05447a;
+  margin-right: 0.5rem;
+}
+
+.gallery-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.floppy-icon {
+  width: 12px;
+  height: 12px;
+  color: #777777;
+  margin-right: 0.3vw;
+  margin-bottom: 0.3vh;
+  pointer-events: none;
+}
+
+.space-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.graph-icon {
+  width: 12px;
+  height: 12px;
+  margin-bottom: 2px;
+  margin-right: 4px;
+}
+
+.zoom-icon {
+  width: 35px;
+  height: 40px;
+}
+
+.twitter-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+}
+
+.stationary-icon {
+  width: 30px;
+  height: 20px;
+  margin-bottom: 0.5vw;
+}
+
+.event-space {
+  width: 30px;
+  height: 30px;
+}
+
+.meeting-room {
+  width: 50px;
+  height: 30px;
+}
+
+.seat-icon {
+  width: 20px;
+  height: 32px;
+  margin-top: 0.25rem;
+}
+
+.google-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 0.5rem;
+}
+
+.star-icon {
+  width: 16px;
+  height: 14px;
+  margin-right: 0.5rem;
+}
+
+.year-experience {
+  width: 14px;
+  height: 14px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.review-add-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 0.5rem;
+}
+
+.video-upload-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 0.5rem;
+}

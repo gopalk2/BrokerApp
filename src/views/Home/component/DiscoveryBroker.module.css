@@ -1,0 +1,13 @@
+@import url(../../../styles/colors.css);
+@import url(../../../styles/sizes.css);
+
+.heading-text {
+  color: var(--labelText);
+  font-size: var(--lg);
+  font-weight: var(--fontWeight400);
+}
+
+.card {
+  width: 30%;
+  margin-top: 1.5rem;
+}

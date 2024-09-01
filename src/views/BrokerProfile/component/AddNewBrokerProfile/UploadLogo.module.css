@@ -1,0 +1,38 @@
+.rectangle-file-upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 10vw;
+  height: 14vh;
+  border: 1px solid #7d9db8;
+  border-radius: 8px;
+}
+
+.circle-file-upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 8rem;
+  border: 2px solid #7d9db8;
+  border-radius: 50%;
+}
+
+.hidden-input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.addImageIcon {
+  width: 24px;
+  height: 24px;
+  color: #7d9db8;
+}
+
+.video-component {
+  height: fit-content !important;
+  border-radius: 8px !important;
+}

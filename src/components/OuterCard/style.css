@@ -1,0 +1,9 @@
+.outer-card {
+    background-color: white;
+    border-radius: 8px;
+    width: 48.5%;
+    padding: 2vh 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

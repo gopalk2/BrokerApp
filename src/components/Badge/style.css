@@ -1,0 +1,58 @@
+.user-badge {
+  border-radius: 24px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5vw;
+}
+
+.basic-grey {
+  padding: 1px 8px;
+  background-color: #ebf0f5;
+  color: #696978;
+}
+
+.dark-blue {
+  padding: 4px 16px;
+  background-color: #05447a;
+  color: white;
+}
+
+.light-blue {
+  padding: 4px 16px;
+  color: white;
+  background-color: #3a85bf;
+}
+
+.active-pill {
+  background-color: #ffffff1a;
+  color: white;
+  padding: 2px 12px;
+}
+
+.inactive-pill {
+  background-color: #05447a1a;
+  color: #05447acc;
+  padding: 2px 12px;
+}
+
+.active-nav-pill {
+  background-color: #05447a1a;
+  color: #05447a;
+  padding: 2px 12px;
+}
+
+.square {
+  border-radius: 3px;
+  padding: 0.2rem 0.4rem;
+  font-size: 12px;
+}
+/* .grey {
+    color: #696978;
+    background: #0023331a;
+}
+.purple {
+    color: #905fb0;
+    background-color: #905fb01a;
+} */

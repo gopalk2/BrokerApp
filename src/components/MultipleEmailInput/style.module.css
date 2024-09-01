@@ -1,0 +1,39 @@
+.outer-div-emails {
+  border: 1px solid #d2d2d7;
+  border-radius: 4px;
+  height: 10%;
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.text-area {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  font-size: 12px;
+  color: #434356;
+}
+textarea::placeholder {
+  font-size: 10px;
+  color: #777777;
+}
+.email-pill {
+  background-color: #ebf0f5;
+  font-size: 12px;
+  font-weight: 400;
+  color: #696978;
+  padding: 2px 4px 2px 8px;
+  border-radius: 4px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.close-icon {
+  width: 8px;
+  height: 8px;
+  margin-bottom: 0.3vh;
+  color: #223a60;
+}

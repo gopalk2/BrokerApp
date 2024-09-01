@@ -1,0 +1,14 @@
+.image-upload-form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0;
+  border-bottom: 0.5px solid rgba(188, 210, 229, 0.5);
+}
+.upload-image-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

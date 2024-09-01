@@ -1,0 +1,15 @@
+.info-icon {
+    color: #667b85;
+    font-size: 14px;
+    height: 14px;
+    width: 14px;
+}
+.tooltip-mui {
+    background-color: white;
+    border: 1px solid #d8e7f2;
+    z-index: 1000;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px 0px #33333329;
+    padding: 0 0.5vw 1vh 0.5vw;
+    width: fit-content;
+}

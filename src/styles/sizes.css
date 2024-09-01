@@ -1,0 +1,47 @@
+:root {
+  /* font sizes */
+  --xs: 10px;
+  --s: 11px;
+  --sm: 12px;
+  --md: 14px;
+  --lg: 16px;
+  --xl: 20px;
+  --xxl: 24px;
+  --xxxl: 28px;
+
+  --fontWeight300: 300;
+  --fontWeight400: 400;
+  --fontWeight500: 500;
+  --fontWeight600: 600;
+
+  --line-height-xs: 1rem;
+  --line-height-sm: 1.2rem;
+  --line-height-md: 1.5rem;
+
+  /* width options */
+  --w-100: 100%;
+  --w-95: 95%;
+  --w-90: 90%;
+  --w-80: 80%;
+  --w-75: 75%;
+  --w-70: 70%;
+  --w-65: 65%;
+  --w-60: 60%;
+  --w-50: 50%;
+  --w-40: 40%;
+  --w-30: 30%;
+  --w-25: 25%;
+  --w-20: 20%;
+  --w-10: 10%;
+
+  /* sizes for margin, padding or borders*/
+  --w1: 0.2rem;
+  --w2: 0.4rem;
+  --w3: 0.6rem;
+  --w4: 0.8rem;
+  --w5: 1rem;
+
+  --b-1: 1px;
+  --br-sm: 4px;
+  --br-md: 6px;
+}

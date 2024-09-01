@@ -1,0 +1,43 @@
+.pop-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.pop-modal-div {
+  background-color: white;
+  border-radius: 8px;
+  width: 50%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  z-index: 99;
+  padding: 0.5rem 1rem;
+}
+
+.xs {
+  width: 20% !important;
+}
+
+.s {
+  width: 25% !important;
+}
+
+.sm {
+  width: 30% !important;
+}
+
+.md {
+  width: 50% !important;
+}
+
+.lg {
+  width: 80% !important;
+}

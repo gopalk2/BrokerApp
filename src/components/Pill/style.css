@@ -1,0 +1,12 @@
+.pill-div {
+    padding: 2px 10px;
+    font-size: 10px;
+    margin-left: 0.5rem;
+}
+
+.round {
+    border-radius: 16px;
+}
+.square {
+    border-radius: 3px;
+}

@@ -1,0 +1,133 @@
+@import url(../../styles/sizes.css);
+@import url(../../styles/colors.css);
+
+.dropdown {
+  height: 100%;
+  width: 100%;
+  border-radius: var(--br-sm);
+  position: relative;
+}
+
+.dropdown-button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.1rem 0.75rem;
+  padding-right: 0;
+  font-size: var(--sm);
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 8vw;
+  padding: 8px;
+  max-height: 20vh;
+  overflow-y: auto;
+  list-style-type: none;
+  z-index: 1000;
+  border-radius: var(--br-sm);
+  border: 1px solid #d8e7f2;
+  box-shadow: 0px 4px 8px 0px #33333329;
+}
+
+.dropdown-option {
+  cursor: pointer;
+  padding: 4px;
+  font-size: var(--sm);
+  line-height: 20px;
+}
+
+/* dropdown options */
+.outlined {
+  border: 1px solid #43435666;
+
+  button {
+    color: #696978;
+  }
+}
+
+.lightgrey-outlined {
+  border: 1px solid #d2d2d7;
+
+  button {
+    color: #696978;
+  }
+}
+
+.transparent {
+  background-color: transparent;
+  border: none;
+
+  button {
+    color: #05447a;
+  }
+}
+
+.blue-background {
+  background-color: #05447a1a;
+  border: none;
+
+  button {
+    color: #05447a;
+  }
+}
+
+.darkblue-background {
+  background-color: #05447a;
+  border: none;
+
+  button {
+    color: white;
+  }
+}
+
+.full-width {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.auto-width {
+  justify-content: flex-start;
+  width: max-content;
+}
+
+/* dropdown options variants */
+
+.darkblue-background-options {
+  background-color: #193947;
+  border: none;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 4px;
+  color: white;
+}
+
+.white-background-options {
+  background-color: white;
+  border: 1px solid #d8e7f2;
+  box-shadow: 0px 4px 8px 0px #33333329;
+  border-radius: 7px;
+  color: #05447a;
+}
+
+.up-icon {
+  width: 10px;
+  height: 10px;
+  color: #05447a;
+  margin: 0.25rem 0.5vw 0.3vh 0.5rem;
+  transform: rotate(180deg);
+}
+
+.down-icon {
+  width: 10px;
+  height: 10px;
+  color: #05447a;
+  margin: 0.25rem 0.5vw 0.3vh 0.5rem;
+}

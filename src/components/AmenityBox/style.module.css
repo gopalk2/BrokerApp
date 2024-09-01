@@ -1,0 +1,31 @@
+@import url(./../../styles/sizes.css);
+@import url(./../../styles/colors.css);
+
+.amenity-box-container {
+  border-radius: 4px;
+  font-size: var(--sm);
+  width: 7.5rem;
+  height: 4.5rem;
+  margin: 0.5rem 0.5rem;
+}
+
+.content-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 4px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.on-active {
+  background-color: var(--lmPrimaryDark);
+  color: var(--activeIcon);
+}
+
+.on-inactive {
+  background-color: var(--lmSecondary);
+  color: var(--lmPrimaryDark);
+}

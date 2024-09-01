@@ -1,0 +1,149 @@
+name: lm-sirf-broker-web-ui
+on:
+  push:
+    branches:
+      - dev
+      - master
+ 
+env:
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  READ_GITHUB_TOKEN: ${{ secrets.READ_GITHUB_TOKEN }}
+  AWS_DEFAULT_REGION: 'us-east-2'
+  TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+  NODE_AUTH_TOKEN: ${{ secrets.M_GITHUB_TOKEN }}
+
+
+# This workflow install dependency and deployment on s3 bucket
+jobs:
+  CheckBranch:
+    name: Test Branch
+    runs-on: ubuntu-latest
+
+    # Setting build timeout .
+    timeout-minutes: 2
+
+    steps:
+     - name: Take manual approval for master branch
+       uses: trstringer/manual-approval@v1
+       with:
+         secret: ${{ github.TOKEN }}
+         approvers: vikasraghav-wmp
+         minimum-approvals: 1
+       if: github.ref == 'refs/heads/master'
+
+  Build_Deploy_Dev:
+    needs: [ CheckBranch ]
+    if: github.ref == 'refs/heads/dev'
+    name: Build and Deploy for Develop
+    runs-on: ubuntu-latest
+    
+    # Setting build timeout.
+    timeout-minutes: 10
+    steps:
+    # To checkout the code.
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        
+
+    - name: Set env
+      run: |
+        echo "PACKAGE_VERSION=$(npm run version --silent)" >> $GITHUB_ENV
+
+    - run: |
+       npm install
+       npm run build
+       echo $PACKAGE_VERSION >> ./build/version.json
+       git tag $PACKAGE_VERSION
+       git push https://${NODE_AUTH_TOKEN}@github.com/LeasingMonkAdmin/sirf-broker-web-ui.git $PACKAGE_VERSION
+       
+    - name: "Deploy to AWS S3"
+      run: |
+        aws s3 rm --recursive s3://sirfbroker.dev.leasingmonk.com
+        aws s3 sync ./build/ s3://sirfbroker.dev.leasingmonk.com
+
+    # Notify to teams on success
+    - name: Notify on success
+      if: ${{ success() }}
+      run: |
+        PACKAGE_VERSION=$(npm run version --silent)
+        BASE_BRANCH=$(echo $GITHUB_REF | awk -F/ '{print $3}')
+        MERGE_COMMIT_SHA=$(git log --merges --format="%H" -n 1)
+        MERGE_AUTHOR=$(git show -s --format="%an" $MERGE_COMMIT_SHA)  
+        cat << EOF > message.json
+        {"@type":"MessageCard","@context":"https://schema.org/extensions","summary":"Pipeline Success!","themeColor":"00FF00","title":"$GITHUB_REPOSITORY pipeline Success ✅✅ ","sections":[{"facts":[{"name":"Repository:","value":"$GITHUB_REPOSITORY"},{"name":"Branch:","value":"$GITHUB_REF_NAME"},{"name":"Package Version:","value":"$PACKAGE_VERSION"}]}],"potentialAction":[{"@type":"OpenUri","name":"View on GitHub","targets":[{"os":"default","uri":"$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"}]}],"text":"$MERGE_AUTHOR merged commits into $BASE_BRANCH"}
+        EOF
+        curl -X POST ${{ secrets.TEAMS_WEBHOOK_URL }} --header 'Content-Type: application/json' -d @message.json
+    
+    
+    #Notify on job failure and send message on teams 
+    - name: Notify about failure
+      if: ${{ failure() }}
+      run: |
+        PACKAGE_VERSION=$(npm run version --silent) 
+        cat << EOF > message.json
+        {"@type":"MessageCard","@context":"https://schema.org/extensions","summary":"Pipeline failed!","themeColor":"ff0000","title":"$GITHUB_REPOSITORY pipeline failed ❌❌ !","sections":[{"facts":[{"name":"Repository:","value":"$GITHUB_REPOSITORY"},{"name":"Branch:","value":"$GITHUB_REF_NAME"},{"name":"Commit:","value":"$GITHUB_SHA"},{"name":"Package Version:","value":"$PACKAGE_VERSION"}]}],"potentialAction":[{"@type":"OpenUri","name":"View on GitHub","targets":[{"os":"default","uri":"$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"}]}]}
+        EOF
+        curl -X POST ${{ secrets.TEAMS_WEBHOOK_URL }} --header 'Content-Type: application/json' -d @message.json
+
+  Build_deploy_QA:
+    needs: [ CheckBranch ]
+    if: github.ref == 'refs/heads/master'
+    name: Build and Deploy for master
+    runs-on: ubuntu-latest
+    
+    # Setting build timeout.
+    timeout-minutes: 10
+    
+    steps:
+    # To checkout the code.
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+    
+    - name: Set env
+      run: echo "PACKAGE_VERSION=$(npm run version --silent)" >> $GITHUB_ENV
+
+    - run: |
+       npm install
+       npm run build
+       echo $PACKAGE_VERSION >> ./build/version.json
+       git tag $PACKAGE_VERSION
+       git push https://${NODE_AUTH_TOKEN}@github.com/LeasingMonkAdmin/sirf-broker-web-ui.git $PACKAGE_VERSION
+
+    - name: "Deploy to AWS S3"
+      run: |
+        aws s3 rm --recursive s3://sirfbroker.qa.leasingmonk.com
+        aws s3 sync ./build/ s3://sirfbroker.qa.leasingmonk.com
+
+    # Notify to teams on success 
+    - name: Notify on success
+      if: ${{ success() }}
+      run: |
+        PACKAGE_VERSION=$(npm run version --silent)
+        BASE_BRANCH=$(echo $GITHUB_REF | awk -F/ '{print $3}')
+        MERGE_COMMIT_SHA=$(git log --merges --format="%H" -n 1)
+        MERGE_AUTHOR=$(git show -s --format="%an" $MERGE_COMMIT_SHA)  
+        cat << EOF > message.json
+        {"@type":"MessageCard","@context":"https://schema.org/extensions","summary":"Pipeline Success!","themeColor":"00FF00","title":"$GITHUB_REPOSITORY pipeline Success ✅✅ ","sections":[{"facts":[{"name":"Repository:","value":"$GITHUB_REPOSITORY"},{"name":"Branch:","value":"$GITHUB_REF_NAME"},{"name":"Package Version:","value":"$PACKAGE_VERSION"}]}],"potentialAction":[{"@type":"OpenUri","name":"View on GitHub","targets":[{"os":"default","uri":"$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"}]}],"text":"$MERGE_AUTHOR merged commits into $BASE_BRANCH"}
+        EOF
+        curl -X POST ${{ secrets.TEAMS_WEBHOOK_URL }} --header 'Content-Type: application/json' -d @message.json
+
+    #Notify on job failure and send message on teams
+    - name: Notify about failure
+      if: ${{ failure() }}
+      run: |
+        PACKAGE_VERSION=$(npm run version --silent) 
+        cat << EOF > message.json
+        {"@type":"MessageCard","@context":"https://schema.org/extensions","summary":"Pipeline failed!","themeColor":"ff0000","title":"$GITHUB_REPOSITORY pipeline failed ❌❌ !","sections":[{"facts":[{"name":"Repository:","value":"$GITHUB_REPOSITORY"},{"name":"Branch:","value":"$GITHUB_REF_NAME"},{"name":"Commit:","value":"$GITHUB_SHA"},{"name":"Package Version:","value":"$PACKAGE_VERSION"}]}],"potentialAction":[{"@type":"OpenUri","name":"View on GitHub","targets":[{"os":"default","uri":"$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"}]}]}
+        EOF
+        curl -X POST ${{ secrets.TEAMS_WEBHOOK_URL }} --header 'Content-Type: application/json' -d @message.json

@@ -1,0 +1,60 @@
+@import url(../../styles/sizes.css);
+@import url(../../styles/colors.css);
+
+.dropdown-with-btn {
+  width: max-content;
+  height: 24px;
+  width: 100%;
+  border-radius: var(--br-sm);
+  background-color: #05447a;
+}
+
+.dropdown-btn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--sm);
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding-left: 1rem;
+}
+
+.dropdown-btn-options {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #05447a;
+  color: white;
+  min-width: 8vw;
+  padding: 0.5rem;
+  list-style-type: none;
+  z-index: 10;
+  border-radius: var(--br-md);
+  border: 1px solid #d8e7f2;
+  box-shadow: 0px 4px 8px 0px #33333329;
+}
+
+.dropdown-btn-option {
+  cursor: pointer;
+  padding: 0.25rem;
+  font-size: var(--sm);
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.up-icon {
+  width: 10px;
+  color: white;
+  margin-bottom: 0.5vh;
+  transform: rotate(180deg);
+}
+
+.down-icon {
+  width: 10px;
+  color: white;
+  margin-bottom: 0.5vh;
+}

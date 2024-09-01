@@ -1,0 +1,72 @@
+@import url(../../../../styles/colors.css);
+@import url(../../../../styles/sizes.css);
+
+.img {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-wrap: nowrap;
+  border-radius: 4px;
+}
+
+.upload-logo-container {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-file-upload {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  border: 1px solid var(--activeTextFieldBorder);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: var(--sm);
+  color: var(--lmPrimary);
+}
+
+.add-image {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 1vh;
+  color: var(--inactiveButton);
+}
+
+.hidden-input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.modal {
+  width: 100%;
+  height: 150px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid var(--lmPrimary);
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.delete-icon {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 0.5vh;
+  color: #05447a;
+}
+
+.pick-image {
+  width: 15px;
+  height: 15px;
+  color: #05447a;
+}

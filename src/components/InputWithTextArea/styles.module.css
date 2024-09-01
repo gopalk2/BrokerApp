@@ -1,0 +1,61 @@
+@import url(../../styles/colors.css);
+@import url(../../styles/sizes.css);
+
+.input-with-label-on-top {
+  width: 100%;
+}
+
+/* label with input in one line */
+.label-input-one-line {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.label-input-one-line label {
+  width: 25%;
+  padding: 0;
+}
+.label-input-one-line .textarea-div {
+  width: 30%;
+}
+/* ************* */
+
+.label {
+  font-size: 12px;
+  font-weight: 400;
+  color: #434356;
+  padding-bottom: 0.4rem;
+}
+.textarea-div {
+  width: 100%;
+}
+.textarea {
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 12px;
+  line-height: 1.2rem;
+  font-weight: 400;
+  color: #696978;
+  background-color: white;
+  border: 1px solid #d2d2d7;
+  border-radius: 4px;
+  width: 100%;
+}
+.error {
+  border-color: #f20c33;
+}
+.warning {
+  border-color: #f49025;
+}
+.success {
+  border-color: #07b871;
+}
+.textarea-helper-text {
+  font-size: 10px;
+  color: #777777;
+  margin: 0;
+  line-height: 1rem;
+}
+.error-text {
+  color: #f20c33;
+}

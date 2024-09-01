@@ -1,0 +1,58 @@
+// {
+//   "parser": "@babel/eslint-parser",
+//   "plugins": ["prettier", "react", "import"],
+//   "env": {
+//     "browser": true,
+//     "node": true,
+//   },
+//   "rules": {
+//     // "react/react-in-jsx-scope": "off",
+//     // "prettier/prettier": ["error", { "endOfLine": "auto" }],
+//     "react-hooks/exhaustive-deps": "off",
+//     "react/prop-types": "off",
+//     "array-callback-return": 0,
+//     "no-useless-escape": "off",
+//     "no-undef": "error",
+//     "no-unused-vars": "error",
+//     "import/no-anonymous-default-export": "off",
+//     "react/jsx-uses-react": "error",
+//     "react/jsx-uses-vars": "error",
+//     "import/order": [
+//       "error",
+//       {
+//         "groups": [
+//           "builtin",
+//           "external",
+//           "internal",
+//           "parent",
+//           "sibling",
+//           "index",
+//           ["object"],
+//         ],
+//         "newlines-between": "never",
+//         "alphabetize": {
+//           "order": "asc",
+//           "caseInsensitive": true,
+//         },
+//       },
+//     ],
+//   },
+//   "ignorePatterns": ["*.test.js"],
+// }
+
+{
+  "extends": ["react-app"],
+  "rules": {
+  },
+  "overrides": [
+    {
+      "files": ["**/*.js?(x)"],
+      "rules": {
+// ******** add ignore rules here *********
+        "react/no-unescaped-entities": "off",
+        "react/display-name": "off",
+        "react/prop-types": "off",
+      }
+    }
+  ]
+}

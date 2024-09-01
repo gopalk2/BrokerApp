@@ -1,0 +1,42 @@
+@import url(../../../../styles/colors.css);
+@import url(../../../../styles/sizes.css);
+
+.form-container {
+  width: 100%;
+  background-color: #24313f;
+  border-radius: 8px;
+}
+
+.heading-container {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-bottom: 0.5px solid var(--defaultTextFieldBorder);
+}
+
+.header-text {
+  color: var(--white);
+  font-size: var(--xl);
+  font-weight: var(--fontWeight500);
+}
+
+.submit-details-button {
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: #fa9d4b;
+  color: var(--white);
+  font-size: var(--lg);
+  font-weight: var(--fontWeight400);
+}
+.form-input {
+  background-color: #24313f;
+  color: var(--white);
+}
+
+.form-input input:focus {
+  background-color: #24313f;
+  color: var(--white);
+}
+
+.dark-background {
+  background-color: #24313f;
+}

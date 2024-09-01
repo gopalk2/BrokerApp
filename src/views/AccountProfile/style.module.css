@@ -1,0 +1,59 @@
+@import url(../../styles/colors.css);
+.profile {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+.profile-container {
+  width: 100%;
+}
+
+.filter-footer {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.5px solid var(--defaultTextFieldBorder);
+  background-color: #24313f;
+}
+
+.profile-form {
+  overflow-y: auto;
+  height: 90%;
+  width: 100%;
+}
+
+.filter-section-div {
+  padding: 1rem 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.form-badge {
+  padding: 0.25rem 1rem;
+  background-color: var(--white);
+  color: var(--defaultTextFieldBorder);
+  border: 0.5px solid var(--defaultTextFieldBorder);
+  cursor: pointer;
+}
+
+.active-badge {
+  padding: 0.25rem 1rem;
+  background-color: #3687d9;
+  color: white;
+  cursor: pointer;
+}
+
+.heading {
+  width: fit-content;
+  border-right: 0.5px solid black;
+  margin-right: 2rem;
+  padding-right: 3rem;
+  line-height: 25px;
+}

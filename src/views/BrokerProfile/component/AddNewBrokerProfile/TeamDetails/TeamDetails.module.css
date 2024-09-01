@@ -1,0 +1,60 @@
+.form-div {
+  width: 100%;
+  max-height: 95%;
+  overflow-y: auto;
+}
+.form-items-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.form-border-div {
+  width: 100%;
+  padding-bottom: 1rem;
+  border-bottom: 0.5px solid #bcd2e599;
+}
+
+.form-accordion-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+}
+
+.form-footer-div {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.up-icon {
+  width: 12px;
+  height: 12px;
+  color: #667b85;
+  transform: rotate(180deg);
+}
+
+.down-icon {
+  width: 12px;
+  height: 12px;
+  color: #667b85;
+}
+
+.delete-icon {
+  width: 15px;
+  height: 15px;
+  color: #667b85;
+  margin-right: 0.5vw;
+  margin-bottom: 0.3vh;
+}
+
+.user-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 0.5vw;
+  margin-bottom: 0.5vh;
+}

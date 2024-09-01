@@ -1,0 +1,38 @@
+@import url(../../styles/sizes.css);
+@import url(../../styles/colors.css);
+
+.search-bar {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  padding: 0 0.5rem;
+  height: 100%;
+  width: 88%;
+  font-size: 12pxf;
+  font-weight: 400;
+  color: #696978;
+}
+
+.search-bar input::placeholder {
+  font-size: var(--sm);
+  color: var(--helperText);
+}
+
+.search-bar button {
+  border: none;
+  background-color: #d3d2da;
+  height: 100%;
+  width: 12%;
+}
+
+.search-logo {
+  width: 13px;
+  height: 13px;
+  margin-bottom: 0.25rem;
+  color: #908fa3;
+}

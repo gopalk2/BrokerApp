@@ -1,0 +1,65 @@
+@import url(../../../../../styles/colors.css);
+@import url(../../../../../styles/sizes.css);
+
+.image-gallery {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.image {
+  width: 39%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.second-image {
+  width: 20%;
+  height: 300px;
+  display: block;
+}
+
+.img {
+  width: 100%;
+  height: 145px;
+  margin-bottom: 0.6rem;
+  object-fit: cover;
+  border-radius: 0 10px 0 0;
+}
+
+.img-II {
+  width: 100%;
+  height: 145px;
+  object-fit: cover;
+  border-radius: 0 0 10px 0;
+}
+
+.gallery-tag {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+  border: 0.5px solid var(--white);
+  border-radius: 5px;
+  background-color: #000000cc;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  cursor: pointer;
+}
+
+.pop-modal {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  width: 70% !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.gallery-icon {
+  width: 13px;
+  height: 13px;
+  color: var(--white);
+  margin-right: 5px;
+}

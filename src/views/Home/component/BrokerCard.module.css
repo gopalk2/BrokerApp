@@ -1,0 +1,81 @@
+@import url(../../../styles/colors.css);
+@import url(../../../styles/sizes.css);
+
+.broker-card {
+  width: 100%;
+  border: 0.5px solid #d8e7f2;
+  border-radius: 8px;
+}
+
+.company-contact-img {
+  width: 5.75rem;
+  height: 5.75rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.heading {
+  color: var(--labelText);
+  font-size: var(--md);
+  font-weight: var(--fontWeight500);
+  margin-bottom: 0.5rem;
+}
+
+.broker-modal-paid-detail {
+  font-size: var(--xs);
+  font-weight: var(--fontWeight400);
+  color: var(--labelText);
+  margin-bottom: 0;
+}
+
+.card {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-footer {
+  background-color: #24313f;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  justify-content: center;
+  padding: 0.25rem;
+}
+
+.card-button {
+  width: 100%;
+  font-size: var(--md);
+  font-weight: var(--fontWeight500);
+  color: var(--white);
+}
+
+.experience-icon {
+  width: 12px;
+  height: 12px;
+  color: #667b85;
+  margin-right: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.space-icon {
+  width: 10px;
+  height: 10px;
+  margin-right: 0.5vw;
+  margin-bottom: 0.3vh;
+  color: #667b85;
+}
+
+.star-icon {
+  width: 10px;
+  height: 10px;
+  margin-right: 0.5vw;
+  margin-bottom: 0.3vh;
+  color: #fa9d4b;
+}
+
+.arrow-icon {
+  width: 14px;
+  height: 14px;
+  color: white;
+  margin-left: 0.5rem;
+  margin-bottom: 0.25rem;
+}

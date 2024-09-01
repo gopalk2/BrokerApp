@@ -1,0 +1,105 @@
+@import url(../../styles/colors.css);
+@import url(../../styles/sizes.css);
+
+.dropdown-with-btn {
+  width: max-content;
+  width: 70px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: #24313f;
+  position: relative;
+}
+
+.dropdown-btn {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid #8994a3;
+  border-radius: 20px;
+  height: 100%;
+  color: white;
+}
+
+.dropdown-btn-options {
+  position: absolute;
+  right: 0;
+  background-color: white;
+  color: var(--labelText);
+  min-width: 11vw;
+  padding: 0.5rem 0;
+  list-style-type: none;
+  z-index: 10;
+  border-radius: var(--br-md);
+  border: 1px solid #d8e7f2;
+  box-shadow: 0px 4px 8px 0px #33333329;
+}
+
+.dropdown-btn-option {
+  cursor: pointer;
+  padding: 0.25rem 0.7rem;
+  font-size: var(--xs);
+  color: #777777;
+  line-height: 16px;
+}
+
+.dropdown-btn-option-border {
+  cursor: pointer;
+  padding: 0.5rem 0.7rem;
+  font-size: var(--xs);
+  color: #777777;
+  line-height: 16px;
+  border-bottom: 0.5px solid var(--disabledTextFieldBorder);
+}
+
+.icon-color {
+  width: 20px;
+  height: 20px;
+  color: #8994a3;
+  margin-bottom: 0.1rem;
+}
+
+.logged-in-icon {
+  width: 20px;
+  height: 20px;
+  color: #fa9d4b;
+  margin-bottom: 0.1rem;
+}
+
+.login {
+  color: #434356 !important;
+}
+
+.drawer-header {
+  border: none;
+}
+
+.floppy-disk-login-color {
+  color: #434356;
+}
+
+.link {
+  text-decoration: none;
+  color: #434356;
+}
+
+.modal-background {
+  padding: 0;
+  background-color: #24313f;
+}
+
+.dropdown-icon {
+  width: 12px;
+  height: 12px;
+  color: #777777;
+  margin-right: 0.3vw;
+  margin-bottom: 0.3vh;
+}
+
+.login-dropdown-icon {
+  width: 12px;
+  height: 12px;
+  color: #434356;
+  margin-right: 0.3vw;
+  margin-bottom: 0.3vh;
+}

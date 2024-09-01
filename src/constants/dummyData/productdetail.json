@@ -1,0 +1,236 @@
+
+{
+
+    "product_list": {
+
+      "primary_product": [
+        {
+          "id":1,
+          "product_name":"Director Cabin",
+          "seating_capacity":5,
+          "total_count":45,
+          "available_count":28,
+          "security_deposit":4,
+          "free_bw_prints":40,
+          "free_color_prints":40,
+          "free_meeting_room_hours":"7 hour",
+          "free_conference_room_hours":"40 hour",
+          "path":"https://leasingmonk.com/images/top-1.png",
+          "work_station_size":20.20
+         
+                    
+         
+      
+        },
+        {
+          "id":2,
+          "product_name":" Dedicated_Desk",
+          "seating_capacity":5,
+          "total_count":45,
+          "available_count":28,
+          "security_deposit":4,
+          "free_bw_prints":40,
+          "free_color_prints":40,
+          "free_meeting_room_hours": "40 hour ",
+          "free_conference_room_hours": "40 hour ",
+          "work_station_size":20.20,
+          "path":"https://leasingmonk.com/images/top-1.png"
+          
+         
+
+        },
+        {
+          "id":3,
+          "product_name":" Dedicated_Desk",
+          "seating_capacity":5,
+          "total_count":45,
+          "available_count":28,
+          "security_deposit":4,
+          "free_bw_prints":40,
+          "free_color_prints":40,
+          "free_meeting_room_hours": "40 hour ",
+          "free_conference_room_hours": "40 hour ",
+          "path":"https://leasingmonk.com/images/top-1.png",
+          "work_station_size":20.20
+          
+        
+
+        },
+        {
+          "id":4,
+          "product_name":"Hot_Desk",
+          "seating_capacity":5,
+          "total_count":45,
+          "available_count":28,
+          "security_deposit":4,
+          "free_bw_prints":40,
+          "free_color_prints":40,
+          "free_meeting_room_hours": "40 hour ",
+          "free_conference_room_hours": "40 hour ",
+          "path":"https://leasingmonk.com/images/top-1.png",
+          "work_station_size":20.20
+         
+         
+
+        },
+        {
+          "id":5,
+          "product_name":"Buisness suit",
+          "seating_capacity":5,
+          "total_count":45,
+          "available_count":28,
+          "security_deposit":4,
+          "free_bw_prints":40,
+          "free_color_prints":40,
+          "free_meeting_room_hours": "40 hour ",
+          "free_conference_room_hours": "40 hour ",
+          "work_station_size":20.20,
+          "path":"https://leasingmonk.com/images/top-1.png"
+                            
+        },
+        {
+          "id":6,
+          "product_name":"Hot_desk",
+          "seating_capacity":5,
+          "total_count":45,
+          "available_count":28,
+          "security_deposit":4,
+          "free_bw_prints":40,
+          "free_color_prints":40,
+          "free_meeting_room_hours": "40 hour ",
+          "free_conference_room_hours": "40 hour ",
+          "path":"https://leasingmonk.com/images/top-1.png",
+          "work_station_size":20.20
+          
+         
+
+        },
+        {
+          "id":7,
+          "product_name":"Buisness_suit",
+          "seating_capacity":5,
+          "total_count":45,
+          "available_count":28,
+          "security_deposit":4,
+          "free_bw_prints":40,
+          "free_color_prints":40,
+          "free_meeting_room_hours": "40 hour ",
+          "free_conference_room_hours": "40 hour ",
+          "path":"https://leasingmonk.com/images/top-1.png",
+          "work_station_size":20.20
+         
+        }
+      ],
+      "secondary_product": [
+        {
+          "id":8,
+          "path":"https://leasingmonk.com/images/top-1.png",
+          "product_name":"Meeting room",
+          "access_to_external_clients":"Yes",
+          "seating_capacity":5,
+          "total_count":45,
+          "available_count":28,
+          "allow_gst_reg":"No",
+          "has_monitor":"Yes",
+          "size_of_monitor":40,
+          "multiple_device_connectivity":"No",        
+          "room_size":20
+         
+        },
+        {
+          "id": 9,
+          "path": "https://leasingmonk.com/images/top-2.png",
+          "product_name": "Meeting room",
+          "access_to_external_clients": "No",
+          "seating_capacity": 20,
+          "total_count": 60,
+          "available_count": 40,
+          "allow_gst_reg": "Yes",
+          "has_monitor": "Yes",
+          "size_of_monitor": 50,
+          "multiple_device_connectivity": "Yes",        
+          "room_size": 50
+      },
+      {
+        "id": 10,
+        "path": "https://leasingmonk.com/images/top-2.png",
+        "product_name": "Meeting room",
+        "access_to_external_clients": "Yes",
+        "seating_capacity": 10,
+        "total_count": 30,
+        "available_count": 15,
+        "allow_gst_reg": "Yes",
+        "has_monitor": "Yes",
+        "size_of_monitor": 60,
+        "multiple_device_connectivity": "No",        
+        "room_size": 30
+    },
+    {
+      "id": 11,
+      "path": "https://leasingmonk.com/images/top-1.png",
+      "product_name": "Event Space",
+      "access_to_external_clients": "Yes",
+      "seating_capacity": 15,
+      "total_count": 40,
+      "available_count": 20,
+      "allow_gst_reg": "No",
+      "has_monitor": "Yes",
+      "size_of_monitor": 55,
+      "multiple_device_connectivity": "Yes",        
+      "room_size": 40
+  },
+  {
+    "id": 12,
+    "path": "https://leasingmonk.com/images/top-2.png",
+    "product_name": "Conference room",
+    "access_to_external_clients": "No",
+    "seating_capacity": 1,
+    "total_count": 10,
+    "available_count": 5,
+    "allow_gst_reg": "No",
+    "has_monitor": "No",
+    "size_of_monitor": 0,
+    "multiple_device_connectivity": "No",        
+    "room_size": 15
+},
+{
+  "id": 13,
+  "path": "https://leasingmonk.com/images/top-1.png",
+  "product_name": "Conference room",
+  "access_to_external_clients": "Yes",
+  "seating_capacity": 0,
+  "total_count": 20,
+  "available_count": 10,
+  "allow_gst_reg": "Yes",
+  "has_monitor": "No",
+  "size_of_monitor": 0,
+  "multiple_device_connectivity": "No",        
+  "room_size": 0
+},
+{
+  "id": 14,
+  "path": "https://leasingmonk.com/images/top-2.png",
+  "product_name": "Traing room",
+  "access_to_external_clients": "Yes",
+  "seating_capacity": 0,
+  "total_count": 20,
+  "available_count": 10,
+  "allow_gst_reg": "Yes",
+  "has_monitor": "No",
+  "size_of_monitor": 0,
+  "multiple_device_connectivity": "No",        
+  "room_size": 0
+}
+
+
+
+
+  
+
+    
+
+
+      
+      ]
+    }
+  }

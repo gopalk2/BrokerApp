@@ -1,0 +1,91 @@
+@import url(../../styles/colors.css);
+@import url(../../styles/sizes.css);
+
+.home-section-div {
+  padding: 0 0.5rem;
+  width: 100%;
+  height: 16.875rem;
+  display: flex;
+  justify-content: center;
+}
+
+.broker-profile {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+.broker-profile-container {
+  width: 100%;
+  padding: 2.5rem 0.5rem;
+  background-color: #f0f4f7;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-border {
+  width: fit-content;
+  border-right: 1px solid var(--defaultTextFieldBorder);
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.broker-profile-footer {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.5px solid var(--defaultTextFieldBorder);
+  background-color: #24313f;
+}
+
+.background-img {
+  background-image: url(../../assets/images/bgimage.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #24313f;
+}
+
+.header-container {
+  border-bottom: 0.5px solid #9bb4ca80;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: none;
+  border-top: 0.5px solid #9bb4ca80;
+  padding: 0 1.5rem;
+}
+
+.save-button {
+  width: 33%;
+  border: 0.5px solid var(--helperText);
+  color: var(--helperText);
+  font-size: var(--md);
+}
+
+.next-button {
+  width: 60%;
+  background-color: #24313f;
+  color: var(--white);
+  font-size: var(--md);
+}
+
+.close-icon {
+  width: 13px;
+  height: 13px;
+  margin-bottom: 0.25rem !important;
+  color: #777777;
+}

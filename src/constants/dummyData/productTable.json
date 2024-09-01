@@ -1,0 +1,7 @@
+[
+    {" productID": "number",
+    "productItem": "string",
+    "price": "number",
+    "noOfSubProduct": "number",
+    "availableProduct": "number"}
+]

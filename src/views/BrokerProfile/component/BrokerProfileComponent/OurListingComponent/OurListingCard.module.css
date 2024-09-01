@@ -1,0 +1,95 @@
+@import url(../../../../../styles/colors.css);
+
+.space-card {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px 0px #33333329;
+}
+
+.image-container {
+  width: 100%;
+  position: relative;
+}
+
+.body {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.space-img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 8px 8px 0 0;
+}
+
+.space-logo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--lmSecondary);
+  color: #3c5ca7;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
+}
+
+.tag-icon {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  z-index: 1;
+}
+
+.broker-img {
+  width: 40px;
+  object-fit: fill;
+}
+
+.badge-text {
+  font-size: 9px;
+  margin-right: 0.5rem;
+}
+
+.price-div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.seat-div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.money-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5vw;
+  margin-bottom: 0.3vh;
+  margin-top: 0.5rem;
+  color: #fa9d4b;
+}
+
+.zoom-icon {
+  width: 28px;
+  height: 28px;
+  margin-top: 0.3rem;
+  color: #fa9d4b;
+}
+
+.location-icon {
+  width: 11px;
+  height: 11px;
+  color: var(--textField) !important;
+  margin-right: 0.3vw;
+  margin-bottom: 0.3vh;
+}

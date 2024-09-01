@@ -1,0 +1,78 @@
+@import url(../../styles/colors.css);
+@import url(../../styles/sizes.css);
+
+.footer-div {
+  width: 90%;
+  height: 280px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 150px;
+  object-fit: fill;
+}
+
+.text-div {
+  position: absolute;
+  bottom: 5px;
+}
+
+.text {
+  color: #b8b8b8;
+  font-size: var(--xs);
+  font-weight: var(--fontWeight400);
+  margin-bottom: 0.25rem;
+}
+
+.footer-tittle-text {
+  color: #f5f5f5;
+  font-size: var(--lg);
+  font-weight: var(--fontWeight500);
+  margin-bottom: 1.5rem !important;
+}
+
+.blog-list-text {
+  color: #b8b8b8;
+  font-size: var(--sm);
+  font-weight: var(--fontWeight400);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-no-text {
+  color: #b8b8b8;
+  font-size: var(--sm);
+  font-weight: var(--fontWeight400);
+  margin-bottom: 0.5rem !important;
+}
+
+.follow-us-text {
+  color: #f5f5f5;
+  font-size: var(--xs);
+  font-weight: var(--fontWeight400);
+  margin-bottom: 0.25rem;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5vw;
+  color: #b8b8b8;
+}
+
+.footer-icon-two {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+  color: #b8b8b8;
+}
+
+.right-icon {
+  width: 10px;
+  height: 10px;
+  color: #667b85;
+  transform: rotate(270deg);
+  margin: 0 0.5rem 0.1rem 0.5rem;
+}

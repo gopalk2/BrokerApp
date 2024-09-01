@@ -1,0 +1,102 @@
+@import url(./sizes.css);
+@import url(./colors.css);
+
+:root {
+  .div-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .div-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .div-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .div-space-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .div-space-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .div-col-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .div-col-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .div-col-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .div-col-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .div-col-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .div-col-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .d-flex {
+    display: flex;
+  }
+  .d-flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  .f-wrap {
+    flex-wrap: wrap;
+  }
+
+  .p-absolute {
+    position: absolute;
+  }
+
+  .p-relative {
+    position: relative;
+  }
+  .overflow {
+    overflow: scroll;
+  }
+}

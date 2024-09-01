@@ -1,0 +1,488 @@
+{
+    "product_list": {
+        "primary_product": {
+            "product_name":[
+                {
+                    "product_type":"Director cabin",
+                    "seating_capacity":5
+                },
+                {
+                    "product_type":"Dedicated desk",
+                    "seating_capacity":1
+                },
+                {
+                    "product_type":"Hot desk",
+                    "seating_capacity":5
+                },
+                {
+                    "product_type":"Buisness Suit",
+                    "seating_capacity":9
+                },
+                {
+                    "product_type":"Buisness Suit",
+                    "seating_capacity":4
+                }, {
+                    "product_type":"Buisness Suit",
+                    "seating_capacity":7
+                },
+                {
+                    "product_type":"Buisness Suit",
+                    "seating_capacity":1
+                }
+
+            ],
+            "Monthly_pricing_details": [
+                {
+                    "price_day_shift": "3000",
+                    "final_day_shift": "2700",
+                    "price_night_shift": "2000",
+                    "final_night_shift": "1800",
+                    "Brokerage_night_shift": "10"
+                },
+                {
+                    "price_day_shift": "3500",
+                    "final_day_shift": "3150",
+                    "price_night_shift": "2200",
+                    "final_night_shift": "1980",
+                    "Brokerage_night_shift": "8"
+                },
+                {
+                    "price_day_shift": "5000",
+                    "final_day_shift": "4500",
+                    "price_night_shift": "3000",
+                    "final_night_shift": "2700",
+                    "Brokerage_night_shift": "12"
+                },
+                {
+                    "price_day_shift": "4500",
+                    "final_day_shift": "4050",
+                    "price_night_shift": "2800",
+                    "final_night_shift": "2520",
+                    "Brokerage_night_shift": "6"
+                },
+                {
+                    "price_day_shift": "3200",
+                    "final_day_shift": "2880",
+                    "price_night_shift": "1900",
+                    "final_night_shift": "1710",
+                    "Brokerage_night_shift": "15"
+                },
+                {
+                    "price_day_shift": "3700",
+                    "final_day_shift": "3330",
+                    "price_night_shift": "2300",
+                    "final_night_shift": "2070",
+                    "Brokerage_night_shift": "7"
+                },
+
+                {
+                    "price_day_shift": "4200",
+                    "final_day_shift": "3780",
+                    "price_night_shift": "2600",
+                    "final_night_shift": "2340",
+                    "Brokerage_night_shift": "9"
+                }
+            ],
+            "Weekly_pricing_details": [
+                {
+                    "price_day_shift": "3000",
+                    "final_day_shift": "2700",
+                    "price_night_shift": "2000",
+                    "final_night_shift": "1800",
+                    "Brokerage_night_shift": "10"
+                },
+                {
+                    "price_day_shift": "3500",
+                    "final_day_shift": "3150",
+                    "price_night_shift": "2200",
+                    "final_night_shift": "1980",
+                    "Brokerage_night_shift": "8"
+                },
+                {
+                    "price_day_shift": "5000",
+                    "final_day_shift": "4500",
+                    "price_night_shift": "3000",
+                    "final_night_shift": "2700",
+                    "Brokerage_night_shift": "12"
+                },
+                {
+                    "price_day_shift": "4500",
+                    "final_day_shift": "4050",
+                    "price_night_shift": "2800",
+                    "final_night_shift": "2520",
+                    "Brokerage_night_shift": "6"
+                },
+                {
+                    "price_day_shift": "3200",
+                    "final_day_shift": "2880",
+                    "price_night_shift": "1900",
+                    "final_night_shift": "1710",
+                    "Brokerage_night_shift": "15"
+                },
+                {
+                    "price_day_shift": "3700",
+                    "final_day_shift": "3330",
+                    "price_night_shift": "2300",
+                    "final_night_shift": "2070",
+                    "Brokerage_night_shift": "7"
+                },
+
+                {
+                    "price_day_shift": "4200",
+                    "final_day_shift": "3780",
+                    "price_night_shift": "2600",
+                    "final_night_shift": "2340",
+                    "Brokerage_night_shift": "9"
+                }
+            ],
+            "daily_pricing_details": [
+                {
+                    "price_day_shift": "3000",
+                    "final_day_shift": "2700",
+                    "price_night_shift": "2000",
+                    "final_night_shift": "1800",
+                    "Brokerage_night_shift": "10"
+                },
+                {
+                    "price_day_shift": "3500",
+                    "final_day_shift": "3150",
+                    "price_night_shift": "2200",
+                    "final_night_shift": "1980",
+                    "Brokerage_night_shift": "8"
+                },
+                {
+                    "price_day_shift": "5000",
+                    "final_day_shift": "4500",
+                    "price_night_shift": "3000",
+                    "final_night_shift": "2700",
+                    "Brokerage_night_shift": "12"
+                },
+                {
+                    "price_day_shift": "4500",
+                    "final_day_shift": "4050",
+                    "price_night_shift": "2800",
+                    "final_night_shift": "2520",
+                    "Brokerage_night_shift": "6"
+                },
+                {
+                    "price_day_shift": "3200",
+                    "final_day_shift": "2880",
+                    "price_night_shift": "1900",
+                    "final_night_shift": "1710",
+                    "Brokerage_night_shift": "15"
+                },
+                {
+                    "price_day_shift": "3700",
+                    "final_day_shift": "3330",
+                    "price_night_shift": "2300",
+                    "final_night_shift": "2070",
+                    "Brokerage_night_shift": "7"
+                },
+
+                {
+                    "price_day_shift": "4200",
+                    "final_day_shift": "3780",
+                    "price_night_shift": "2600",
+                    "final_night_shift": "2340",
+                    "Brokerage_night_shift": "9"
+                }
+            ],
+            "hourly_pricing_details": [
+                {
+                    "price_day_shift": "3000",
+                    "final_day_shift": "2700",
+                    "price_night_shift": "2000",
+                    "final_night_shift": "1800",
+                    "Brokerage_night_shift": "10"
+                },
+                {
+                    "price_day_shift": "3500",
+                    "final_day_shift": "3150",
+                    "price_night_shift": "2200",
+                    "final_night_shift": "1980",
+                    "Brokerage_night_shift": "8"
+                },
+                {
+                    "price_day_shift": "5000",
+                    "final_day_shift": "4500",
+                    "price_night_shift": "3000",
+                    "final_night_shift": "2700",
+                    "Brokerage_night_shift": "12"
+                },
+                {
+                    "price_day_shift": "4500",
+                    "final_day_shift": "4050",
+                    "price_night_shift": "2800",
+                    "final_night_shift": "2520",
+                    "Brokerage_night_shift": "6"
+                },
+                {
+                    "price_day_shift": "3200",
+                    "final_day_shift": "2880",
+                    "price_night_shift": "1900",
+                    "final_night_shift": "1710",
+                    "Brokerage_night_shift": "15"
+                },
+                {
+                    "price_day_shift": "3700",
+                    "final_day_shift": "3330",
+                    "price_night_shift": "2300",
+                    "final_night_shift": "2070",
+                    "Brokerage_night_shift": "7"
+                },
+
+                {
+                    "price_day_shift": "4200",
+                    "final_day_shift": "3780",
+                    "price_night_shift": "2600",
+                    "final_night_shift": "2340",
+                    "Brokerage_night_shift": "9"
+                }
+            ]
+        },
+
+        "secondary_product": {
+            "product_name":[
+                {
+                    "product_type":"Meeting room",
+                    "seating_capacity":5
+                },
+                {
+                    "product_type":"Meeting",
+                    "seating_capacity":1
+                },
+                {
+                    "product_type":"Meeting room",
+                    "seating_capacity":5
+                },
+                {
+                    "product_type":"Event space",
+                    "seating_capacity":9
+                },
+                {
+                    "product_type":"Conference room",
+                    "seating_capacity":4
+                }, {
+                    "product_type":"Conference room",
+                    "seating_capacity":7
+                },
+                {
+                    "product_type":"Virtual office",
+                    "seating_capacity":1
+                }
+
+            ],
+
+
+
+            "Monthly_pricing_details": [
+                {
+                    "price_day_shift": "400",
+                    "final_day_shift": "360",
+                    "price_night_shift": "250",
+                    "final_night_shift": "225",
+                    "Brokerage_night_shift": "15"
+                },
+                {
+                    "price_day_shift": "4500",
+                    "final_day_shift": "4050",
+                    "price_night_shift": "250",
+                    "final_night_shift": "1980",
+                    "Brokerage_night_shift": "12"
+                },
+                {
+                    "price_day_shift": "6000",
+                    "final_day_shift": "5400",
+                    "price_night_shift": "350",
+                    "final_night_shift": "3150",
+                    "Brokerage_night_shift": "10"
+                },
+                {
+                    "price_day_shift": "5500",
+                    "final_day_shift": "4950",
+                    "price_night_shift": "12000",
+                    "final_night_shift": "3080",
+                    "Brokerage_night_shift": "8"
+                },
+                {
+                    "price_day_shift": "2800",
+                    "final_day_shift": "3640",
+                    "price_night_shift": "2400",
+                    "final_night_shift": "2160",
+                    "Brokerage_night_shift": "20"
+                },
+                {
+                    "price_day_shift": "4200",
+                    "final_day_shift": "2660",
+                    "price_night_shift": "2600",
+                    "final_night_shift": "2340",
+                    "Brokerage_night_shift": "7"
+                },
+                {
+                    "price_day_shift": "5800",
+                    "final_day_shift": "1980",
+                    "price_night_shift": "3100",
+                    "final_night_shift": "2790",
+                    "Brokerage_night_shift": "11"
+                }
+            ],
+            "Weekly_pricing_details": [
+                {
+                    "price_day_shift": "555",
+                    "final_day_shift": "2400",
+                    "price_night_shift": "2000",
+                    "final_night_shift": "1800",
+                    "Brokerage_night_shift": "12"
+                },
+                {
+                    "price_day_shift": "350",
+                    "final_day_shift": "3150",
+                    "price_night_shift": "2200",
+                    "final_night_shift": "1980",
+                    "Brokerage_night_shift": "8"
+                },
+                {
+                    "price_day_shift": "5090",
+                    "final_day_shift": "4750",
+                    "price_night_shift": "3000",
+                    "final_night_shift": "2700",
+                    "Brokerage_night_shift": "15"
+                },
+                {
+                    "price_day_shift": "4580",
+                    "final_day_shift": "4050",
+                    "price_night_shift": "7800",
+                    "final_night_shift": "2520",
+                    "Brokerage_night_shift": "6"
+                },
+                {
+                    "price_day_shift": "1200",
+                    "final_day_shift": "2280",
+                    "price_night_shift": "1900",
+                    "final_night_shift": "1710",
+                    "Brokerage_night_shift": "10"
+                },
+                {
+                    "price_day_shift": "2200",
+                    "final_day_shift": "3330",
+                    "price_night_shift": "2300",
+                    "final_night_shift": "2070",
+                    "Brokerage_night_shift": "7"
+                },
+
+                {
+                    "price_day_shift": "1600",
+                    "final_day_shift": "3780",
+                    "price_night_shift": "2600",
+                    "final_night_shift": "2340",
+                    "Brokerage_night_shift": "9"
+                }
+            ],
+
+            "daily_pricing_details": [
+                {
+                    "price_day_shift": "3000",
+                    "final_day_shift": "2700",
+                    "price_night_shift": "2000",
+                    "final_night_shift": "1800",
+                    "Brokerage_night_shift": "10"
+                },
+                {
+                    "price_day_shift": "3500",
+                    "final_day_shift": "3150",
+                    "price_night_shift": "2200",
+                    "final_night_shift": "1980",
+                    "Brokerage_night_shift": "8"
+                },
+                {
+                    "price_day_shift": "5000",
+                    "final_day_shift": "4500",
+                    "price_night_shift": "3000",
+                    "final_night_shift": "2700",
+                    "Brokerage_night_shift": "12"
+                },
+                {
+                    "price_day_shift": "4500",
+                    "final_day_shift": "4050",
+                    "price_night_shift": "2800",
+                    "final_night_shift": "2520",
+                    "Brokerage_night_shift": "6"
+                },
+                {
+                    "price_day_shift": "3200",
+                    "final_day_shift": "2880",
+                    "price_night_shift": "1900",
+                    "final_night_shift": "1710",
+                    "Brokerage_night_shift": "15"
+                },
+                {
+                    "price_day_shift": "3700",
+                    "final_day_shift": "3330",
+                    "price_night_shift": "2300",
+                    "final_night_shift": "2070",
+                    "Brokerage_night_shift": "7"
+                },
+
+                {
+                    "price_day_shift": "4200",
+                    "final_day_shift": "3780",
+                    "price_night_shift": "2600",
+                    "final_night_shift": "2340",
+                    "Brokerage_night_shift": "9"
+                }
+            ],
+            "hourly_pricing_details": [
+                {
+                    "price_day_shift": "3000",
+                    "final_day_shift": "2700",
+                    "price_night_shift": "2000",
+                    "final_night_shift": "1800",
+                    "Brokerage_night_shift": "10"
+                },
+                {
+                    "price_day_shift": "3500",
+                    "final_day_shift": "3150",
+                    "price_night_shift": "2200",
+                    "final_night_shift": "1980",
+                    "Brokerage_night_shift": "8"
+                },
+                {
+                    "price_day_shift": "5000",
+                    "final_day_shift": "4500",
+                    "price_night_shift": "3000",
+                    "final_night_shift": "2700",
+                    "Brokerage_night_shift": "12"
+                },
+                {
+                    "price_day_shift": "4500",
+                    "final_day_shift": "4050",
+                    "price_night_shift": "2800",
+                    "final_night_shift": "2520",
+                    "Brokerage_night_shift": "6"
+                },
+                {
+                    "price_day_shift": "3200",
+                    "final_day_shift": "2880",
+                    "price_night_shift": "1900",
+                    "final_night_shift": "1710",
+                    "Brokerage_night_shift": "15"
+                },
+                {
+                    "price_day_shift": "3700",
+                    "final_day_shift": "3330",
+                    "price_night_shift": "2300",
+                    "final_night_shift": "2070",
+                    "Brokerage_night_shift": "7"
+                },
+
+                {
+                    "price_day_shift": "4200",
+                    "final_day_shift": "3780",
+                    "price_night_shift": "2600",
+                    "final_night_shift": "2340",
+                    "Brokerage_night_shift": "9"
+                }
+            ]
+        }
+    }
+}

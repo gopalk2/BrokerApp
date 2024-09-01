@@ -1,0 +1,78 @@
+@import url(../../../../../styles/colors.css);
+@import url(../../../../../styles/sizes.css);
+
+.our-team-detail {
+  width: 100%;
+  border: 0.5px solid var(--dropdownBorder);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px 0px #33333329;
+  padding: 1rem;
+}
+
+.our-team-logo {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+.location-text {
+  color: var(--lmPrimary);
+  font-size: var(--md);
+  font-weight: var(--fontWeight400);
+  margin-bottom: 0.25rem;
+}
+
+.heading {
+  color: var(--labelText);
+  font-size: var(--xl);
+  font-weight: var(--fontWeight500);
+  margin-bottom: 0.5rem;
+}
+
+.badge-text {
+  font-size: var(--md);
+  font-weight: var(--fontWeight400);
+  color: var(--textField);
+  margin-right: 1rem;
+}
+
+.review-text {
+  font-size: var(--md);
+  font-weight: var(--fontWeight500);
+  color: var(--labelText);
+  padding-top: 0.15rem;
+}
+
+.specialization-container {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 0.5px solid var(--defaultTextFieldBorder);
+  border-radius: 8px;
+}
+
+.location-badge {
+  font-size: var(--xs);
+  font-weight: var(--fontWeight500);
+}
+
+.specialization-badge {
+  padding: 0.25rem 1rem;
+  font-size: var(--md);
+  font-weight: var(--fontWeight500);
+}
+
+.heading-name-text {
+  color: var(--labelText);
+  font-size: var(--lg);
+  font-weight: var(--fontWeight500);
+  margin-bottom: 0.75rem;
+}
+
+.small-call-icon {
+  width: 11px;
+  height: 11px;
+  color: #667b85;
+  margin-right: 0.5vw;
+  margin-bottom: 0.3vh;
+}

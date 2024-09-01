@@ -1,0 +1,29 @@
+name: PR Notification
+
+on:
+  pull_request:
+    types:
+      - opened
+    branches:
+      - dev  
+
+jobs:
+  send-notification:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      
+      - name: Notify about Pr notification
+        run: |
+          BASE_BRANCH=$(jq --raw-output .pull_request.base.ref "$GITHUB_EVENT_PATH")
+          MERGE_AUTHOR=$(jq --raw-output .pull_request.user.login "$GITHUB_EVENT_PATH")
+          PR_BRANCH=$(jq --raw-output .pull_request.head.ref "$GITHUB_EVENT_PATH")
+          PR_URL=$(jq --raw-output .pull_request.html_url "$GITHUB_EVENT_PATH")
+          PR_TITLE=$(jq --raw-output .pull_request.title "$GITHUB_EVENT_PATH")
+          cat << EOF > message.json
+          {"@type":"MessageCard","@context":"https://schema.org/extensions","summary":"Pull Request!","themeColor":"ff0000","title":"$GITHUB_REPOSITORY Pull Request Raised🚀 ","sections":[{"facts":[{"name":"Repository:","value":"$GITHUB_REPOSITORY"},{"name":"PR Title:","value":"$PR_TITLE"},{"name":"PR URL:","value":"$PR_URL"},{"name":"PR Author:","value":"$MERGE_AUTHOR"}]}],"potentialAction":[{"@type":"OpenUri","name":"View on GitHub","targets":[{"os":"default","uri":"$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"}]}],"text":"$MERGE_AUTHOR wants to merge into $BASE_BRANCH from $PR_BRANCH."}
+          EOF
+          curl -X POST ${{ secrets.PULL_REQUEST_WEBHOOK_URL }} --header 'Content-Type: application/json' -d @message.json

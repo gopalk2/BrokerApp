@@ -1,0 +1,29 @@
+name: Update Package Version
+on:
+  pull_request:
+    types:
+      - opened
+    branches:
+      - dev
+jobs:
+  update_version:
+    runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: Bump version
+      run: |
+        npm version patch --no-git-tag-version
+        git diff
+        # new_version=$(node -pe "require('./package.json').version")
+        # echo "::set-output name=new_version::$new_version"
+    - uses: stefanzweifel/git-auto-commit-action@v5

@@ -1,0 +1,55 @@
+.broker-header-nav {
+  width: 100%;
+  height: 10%;
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #24313f;
+}
+
+.nav-header-div {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-section-logo {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo {
+  width: 180px;
+  object-fit: fill;
+}
+
+.nav-section-menu {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-button {
+  background-color: #fa9d4b;
+  color: white;
+  border-radius: 24px;
+  padding: 0.6rem 1rem;
+}
+
+.magic-star-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.edit-icon {
+  width: 11px;
+  height: 11px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+}

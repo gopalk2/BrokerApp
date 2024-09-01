@@ -1,0 +1,99 @@
+@import url(../../../../styles/colors.css);
+@import url(../../../../styles/sizes.css);
+
+.broker-detail {
+  width: 100%;
+  display: flex;
+  padding: 0.5rem 0 1.5rem 0;
+}
+
+.broker-logo {
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+.location-text {
+  color: var(--lmPrimary);
+  font-size: var(--md);
+  font-weight: var(--fontWeight400);
+  margin-bottom: 0.25rem;
+}
+
+.heading {
+  color: var(--labelText);
+  font-size: var(--xl);
+  font-weight: var(--fontWeight500);
+  margin-bottom: 0.5rem;
+}
+
+.badge-text {
+  font-size: var(--md);
+  font-weight: var(--fontWeight400);
+  color: var(--textField);
+  margin-right: 1rem;
+}
+
+.review-text {
+  font-size: var(--md);
+  font-weight: var(--fontWeight500);
+  color: var(--labelText);
+  padding-top: 0.15rem;
+}
+
+.specialization-container {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 0.5px solid var(--defaultTextFieldBorder);
+  border-radius: 8px;
+}
+
+.location-badge {
+  font-size: var(--xs);
+  font-weight: var(--fontWeight500);
+}
+
+.specialization-badge {
+  padding: 0.25rem 1rem;
+  font-size: var(--md);
+  font-weight: var(--fontWeight500);
+}
+
+.call-icon {
+  width: 15px;
+  height: 15px;
+  color: var(--labelText);
+  margin-right: 0.5vw;
+  margin-bottom: 0.3vh;
+}
+
+.small-call-icon {
+  width: 11px;
+  height: 11px;
+  color: var(--labelText);
+  margin-right: 0.5vw;
+  margin-bottom: 0.3vh;
+}
+
+.copy-icon {
+  width: 12px;
+  height: 12px;
+  margin-left: 0.75rem;
+  color: #3a85bf;
+}
+
+.start-icon {
+  width: 15px;
+  height: 15px;
+  color: #fa9d4b;
+  margin-right: 0.5vw;
+  margin-bottom: 0.3vh;
+}
+
+.diamond-icon {
+  width: 18px;
+  height: 18px;
+  color: var(--labelText);
+  margin-right: 0.5vw;
+}

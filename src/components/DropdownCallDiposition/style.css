@@ -1,0 +1,66 @@
+@import url(../../styles/sizes.css);
+@import url(../../styles/colors.css);
+
+.dropdown-call {
+  border-radius: 16px;
+  border: 0.5px solid;
+  width: max-content;
+  height: 24px;
+  width: 100%;
+  padding: 0.1rem 0.3rem;
+}
+.dropdown-button-call {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--sm);
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropdown-options-call {
+  position: relative;
+  top: 10%;
+  right: 0;
+  background-color: white;
+  min-width: 8vw;
+  width: 100%;
+  max-height: 40vh;
+  overflow-y: auto;
+  padding: 8px;
+  list-style-type: none;
+  z-index: 10;
+  border-radius: var(--br-md);
+  border: 1px solid #d8e7f2;
+  box-shadow: 0px 8px 8px 0px #0000003d;
+}
+
+.dropdown-option-call {
+  cursor: pointer;
+  padding: 4px;
+  font-size: var(--sm);
+  line-height: 20px;
+}
+
+.b-border {
+  border-bottom: 1px solid #d8e7f2;
+}
+
+.up-icon {
+  width: 10px;
+  color: #05447a;
+  margin-bottom: 0.5vh;
+  transform: rotate(180deg);
+}
+
+.down-icon {
+  width: 10px;
+  color: #05447a;
+  margin-bottom: 0.5vh;
+}

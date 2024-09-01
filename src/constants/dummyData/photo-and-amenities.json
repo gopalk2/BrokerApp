@@ -1,0 +1,75 @@
+[
+    {
+        "photo_name": "Space Images",
+        "sub_data":
+        [
+            {"question": "Banner Image", "answer": [{"value": "no image"}]},
+            {"question": "Front of Building", "answer": [{"value": "no image"}]},
+            {"question": "Common Area", "answer": [{"value": "no image"}]},
+            {"question": "Cafeteria", "answer": [{"value": "no image"}]},
+            {"question": "Open Desk Space", "answer": [{"value": "no image"}]},
+            {"question": "Private Cabin", "answer": [{"value": "no image"}]},
+            {"question": "Fun Zone", "answer": [{"value": "no image"}]},
+            {"question": "Reception", "answer": [{"value": "no image"}]},
+            {"question": "Other Image", "answer": [{"value": "no image"}]}
+        ]        
+    },
+    {
+        "photo_name": "Amenities",
+        "sub_data":
+        [
+            {  
+                "question": "Service amenities", 
+                "answer": 
+                [
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"}
+                ]
+            },
+            {
+                "question": "Techinical amenities",
+                "answer":
+                [
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"}   
+                ]
+            },
+            {
+                "question": "Techinical amenities",
+                "answer":
+                [
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"}   
+                ]
+            },
+            {
+                "question": "Techinical amenities",
+                "answer":
+                [
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"},
+                    {"amenities": "24 Hours"}   
+                ]
+            }
+        ]
+    }
+]

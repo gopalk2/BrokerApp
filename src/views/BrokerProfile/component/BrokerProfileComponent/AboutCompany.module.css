@@ -1,0 +1,75 @@
+@import url(../../../../styles/colors.css);
+@import url(../../../../styles/sizes.css);
+
+.about-border-container {
+  border-bottom: 0.5px solid var(--defaultTextFieldBorder);
+  margin-bottom: 0.75rem;
+}
+
+.heading {
+  color: var(--labelText);
+  font-size: var(--xl);
+  font-weight: var(--fontWeight500);
+  margin-bottom: 0.5rem;
+}
+
+.badge-text {
+  font-size: var(--md);
+  font-weight: var(--fontWeight400);
+  color: var(--textField);
+  padding: 0.25rem 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.invitation-section-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+  width: 100%;
+  height: 10%;
+}
+
+.experience-icon {
+  width: 12px;
+  height: 12px;
+  color: var(--textField);
+  margin-right: 0.5vw;
+  margin-bottom: 0.3vh;
+}
+
+.space-icon {
+  width: 11px;
+  height: 11px;
+  color: var(--textField);
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.achievement-icon {
+  width: 14px;
+  height: 14px;
+  color: var(--textField);
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.deal-icon {
+  width: 11px;
+  height: 11px;
+  color: var(--textField);
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.dot {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--helperText);
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-bottom: 0.25rem;
+}
